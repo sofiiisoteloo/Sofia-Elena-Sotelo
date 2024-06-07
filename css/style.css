@@ -1,0 +1,113 @@
+body {
+    margin:0px;
+}
+header{
+    background-color: #ffffff;
+    height: 105px;
+}
+    
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 230px;
+}
+
+.productos-header {
+    position: absolute;
+    right: 38%;
+    top: 5%;
+    
+}
+
+.header-nav {
+    position: absolute;
+    right: 17%;
+    top: 5%;
+}
+
+.opiniones {
+    position: absolute;
+    right: 4.5%;
+    top: 5%;
+    
+}
+
+.uno {
+    display: flex;
+    justify-content: center;
+    animation: flipInX;
+    animation-duration: 2s;
+}
+
+.productos_card {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.envio{
+    color: green;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+.productos {
+    margin: 40px;
+}
+
+.producto{
+    width: 136px;
+}
+.producto-teclado{
+    width: 248px;
+}
+.producto-tv{
+    width: 247px;
+}
+.productos h2{
+    text-align: center;
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.contenedor-productos div {
+    width: 250px;
+    height: 350px;
+    border: 1px solid grey;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.contenedor-productos div a {
+    background-color: rgb(57, 57, 21
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+
+.footer-nav ul {
+    list-style: none;
+
+}
+
+.footer-nav h2 {
+    margin-left: 5%;
+}
+
+#animation{
+    animation: fadeInTopLeft;
+    animation-duration: 1.5s;
+}
+
